@@ -1,5 +1,5 @@
 ### Source in GitHub
-* [Stable Snapshot 4.0.1](https://github.com/OWASP/ASVS/tree/v4.0.1)
+* [Stable Release 4.0.1](https://github.com/OWASP/ASVS/tree/v4.0.1)
 * ["Bleeding Edge" version](https://github.com/OWASP/ASVS/tree/master)
 
 ### Downloads (ASVS 4.0.1)
@@ -23,16 +23,10 @@ Follow the project on Twitter at: [@OWASP_ASVS](https://twitter.com/OWASP_ASVS)
 
 
 ### Project Classification
-
-![Flagship Project](assets/images/common/owasp_level_flagship.svg)
-
-![Breakers](assets/images/common/owasp_breakers.svg)
-
-![Builders](assets/images/common/owasp_builders.svg)
-
-![Defenders](assets/images/common/owasp_defenders.svg)
-
-![Documentation Project](assets/images/common/owasp_doc_project.svg)
+* <i class="fas fa-flag" style="font-size: 1.2em; color:#2ADA08;"></i><span style="font-size:1.0em;padding-left:12px;">Flagship Project</span>
+* <i class="fas fa-book" style="font-size: 1.2em; color:#233e81;"></i><span style="font-size:1.0em;padding-left:12px;">Documentation</span>
+* <i class="fas fa-toolbox" style="font-size: 1.2em; color:#233e81;"></i><span style="font-size:1.0em;padding-left:12px;">Builder</span> 
+* <i class="fas fa-shield-alt" style="font-size: 1.2em; color:#233e81;"></i><span style="font-size:1.0em;padding-left:12px;">Defender</span>
 
 <!--### Project Information
 * Project Level
