@@ -9,11 +9,9 @@
 * [Persian PDF](https://github.com/OWASP/ASVS/raw/master/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0-fa.pdf)
 
 ### Social Links
-
 Follow the project on Twitter at: [@OWASP_ASVS](https://twitter.com/OWASP_ASVS)
 
 ### News and Events
-
 * [2 March 2019] [ASVS 4.0.1](https://github.com/OWASP/ASVS#latest-released-version) released!
 * [9 March 2018] [OWASP ASVS 3.1 Spreadsheet](https://docs.google.com/spreadsheets/d/1ic7gsib--Cn4ujrA8rhvzuUmMFpQ2Jkl96SZDCEtqJg/edit?ts=5a6bafe1#gid=950526877) created by August Detlefsen
 * [29 June 2016] Version 3.0.1 released
