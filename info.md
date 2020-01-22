@@ -11,30 +11,9 @@
 ### Social Links
 Follow the project on Twitter at: [@OWASP_ASVS](https://twitter.com/OWASP_ASVS)
 
-### News and Events
-* [2 March 2019] [ASVS 4.0.1](https://github.com/OWASP/ASVS#latest-released-version) released!
-* [9 March 2018] [OWASP ASVS 3.1 Spreadsheet](https://docs.google.com/spreadsheets/d/1ic7gsib--Cn4ujrA8rhvzuUmMFpQ2Jkl96SZDCEtqJg/edit?ts=5a6bafe1#gid=950526877) created by August Detlefsen
-* [29 June 2016] Version 3.0.1 released
-* [9 Oct 2015] Version 3.0 released
-* [20 May 2015] "First Cut" Version 3.0 released
-* [11 Aug 2014] Version 2.0 released
-
-
 ### Project Classification
 * <i class="fas fa-flag" style="font-size: 1.2em; color:#2ADA08;"></i><span style="font-size:1.0em;padding-left:12px;">Flagship Project</span>
 * <i class="fas fa-book" style="font-size: 1.2em; color:#233e81;"></i><span style="font-size:1.0em;padding-left:12px;">Documentation</span>
 * <i class="fas fa-toolbox" style="font-size: 1.2em; color:#233e81;"></i><span style="font-size:1.0em;padding-left:12px;">Builder</span> 
 * <i class="fas fa-shield-alt" style="font-size: 1.2em; color:#233e81;"></i><span style="font-size:1.0em;padding-left:12px;">Defender</span>
 * <i class="fas fa-user-secret" style="font-size: 1.2em; color:#233e81;"></i><span style="font-size:1.0em;padding-left:12px;">Breaker</span>
-
-<!--### Project Information
-* Project Level
-* Project Type
-* Version, etc
-
-### Downloads or Social Links
-* [Download](#)
-* [Social Link](#)
-
-### Code Repository
-* [repo](#)-->
