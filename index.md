@@ -22,6 +22,10 @@ The primary aim of the **OWASP Application Security Verification Standard (ASVS)
 * **Use as guidance** - Provide guidance to security control developers as to what to build into security controls in order to satisfy application security requirements, and 
 * **Use during procurement** - Provide a basis for specifying application security verification requirements in contracts.
 
+## OWASP ASVS 4.0.1 Released!
+
+Get the new version of the ASVS (4.0.1) from the [Downloads](https://github.com/OWASP/ASVS#latest-released-version) page.
+
 ## How To Reference ASVS Requirements
 
 Each requirement has an identifier in the format `<chapter>.<section>.<requirement>` where each element is a number, for example: `1.11.3`.
@@ -38,10 +42,6 @@ Note: The `v` preceding the version portion is to be lower case.
 If identifiers are used without including the `v<version>` element then they should be assumed to refer to the latest Application Security Verification Standard content. Obviously as the standard grows and changes this becomes problematic, which is why writers or developers should include the version element.
 
 ASVS requirement lists are made available in [CSV, JSON, and other formats](https://github.com/OWASP/ASVS) which may be useful for reference or programmatic use.
-
-## OWASP ASVS 4.0.1 Released!
-
-Get the new version of the ASVS (4.0.1) from the [Downloads](https://github.com/OWASP/ASVS#latest-released-version) page.
 
 ## Related Projects
 
