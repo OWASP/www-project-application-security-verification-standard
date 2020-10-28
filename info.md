@@ -2,7 +2,7 @@
 * [Stable Release 4.0.2](https://github.com/OWASP/ASVS/tree/v4.0.2#latest-stable-version---402)
 * ["Bleeding Edge" version](https://github.com/OWASP/ASVS/tree/master)
 
-Previous stable releases:
+#### Previous stable releases:
 * [Stable Release 4.0.1](https://github.com/OWASP/ASVS/tree/v4.0.1/4.0)
 
 ### Downloads (ASVS 4.0.2)
