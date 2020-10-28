@@ -24,7 +24,7 @@ The primary aim of the **OWASP Application Security Verification Standard (ASVS)
 
 ## OWASP ASVS 4.0.2 Released!
 
-Get the new version of the ASVS (4.0.2) from the [Downloads](https://github.com/OWASP/ASVS#latest-released-version) page.
+Get the new version of the ASVS (4.0.2) from the [Downloads](https://github.com/OWASP/ASVS/tree/v4.0.2#latest-stable-version---402) page.
 
 ## How To Reference ASVS Requirements
 
