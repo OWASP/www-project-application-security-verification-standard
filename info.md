@@ -1,12 +1,21 @@
 ### Source in GitHub
-* [Stable Release 4.0.1](https://github.com/OWASP/ASVS/tree/v4.0.1)
+* [Stable Release 4.0.2](https://github.com/OWASP/ASVS/tree/v4.0.2#latest-stable-version---402)
 * ["Bleeding Edge" version](https://github.com/OWASP/ASVS/tree/master)
 
-### Downloads (ASVS 4.0.1)
-* [English PDF](https://github.com/OWASP/ASVS/raw/master/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0-en.pdf)
-* [English Word](https://github.com/OWASP/ASVS/raw/master/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0-en.docx)
-* [English CSV](https://github.com/OWASP/ASVS/raw/master/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0-en.csv)
-* [Persian PDF](https://github.com/OWASP/ASVS/raw/master/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0-fa.pdf)
+Previous stable releases:
+* [Stable Release 4.0.1](https://github.com/OWASP/ASVS/tree/v4.0.1/4.0)
+
+### Downloads (ASVS 4.0.2)
+* [English PDF](https://github.com/OWASP/ASVS/raw/v4.0.2/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0.2-en.pdf)
+* [English Word](https://github.com/OWASP/ASVS/raw/v4.0.2/4.0/docs_en/OWASP%20Application%20Security%20Verification%20Standard%204.0.2-en.docx)
+* [English CSV](https://github.com/OWASP/ASVS/raw/v4.0.2/4.0/docs_en/OWASP%20Application%20Security%20Verification%20Standard%204.0.2-en.csv)
+* [OWASP Application Security Verification Standard 4.0.2 (GitHub Tag)](https://github.com/OWASP/ASVS/tree/v4.0.2)
+
+### Translations:
+* [Persian PDF](https://github.com/OWASP/ASVS/raw/v4.0.2/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0-fa.pdf)
+* [German PDF](https://github.com/OWASP/ASVS/raw/v4.0.2/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0-DE.pdf) 
+* [Japanese PDF](https://github.com/OWASP/ASVS/raw/v4.0.2/4.0/OWASP-Application-Security-Verification-Standard-4.0-ja.pdf)
+* [Turkish PDF](https://github.com/OWASP/ASVS/raw/v4.0.2/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0-tr.pdf)
 
 ### Social Links
 Follow the project on Twitter at: [@OWASP_ASVS](https://twitter.com/OWASP_ASVS)
