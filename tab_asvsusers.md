@@ -20,6 +20,7 @@ A broad range of companies and agencies around the globe have added ASVS to thei
 * [Etebaran Informatics](http://etebaran.com)
 * [Minded Security](https://www.mindedsecurity.com)
 * [Nixu](https://www.nixu.com)
+* [Pensive Security](https://pensivesecurity.io)
 * [ps_testware](https://www.pstestware.com/)
 * [Proactive Risk](https://www.proactiverisk.com)
 * [Quince Associates Limited (SeeMyData)](https://quince.co.uk)
