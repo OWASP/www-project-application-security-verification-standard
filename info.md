@@ -13,7 +13,7 @@
 
 ### Translations:
 * [Persian PDF](https://github.com/OWASP/ASVS/raw/v4.0.2/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0-fa.pdf)
-* [German PDF](https://github.com/OWASP/ASVS/raw/v4.0.2/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0-DE.pdf) 
+* [German PDF](https://github.com/OWASP/ASVS/raw/v4.0.2/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0.2-de.pdf) 
 * [Japanese PDF](https://github.com/OWASP/ASVS/raw/v4.0.2/4.0/OWASP-Application-Security-Verification-Standard-4.0-ja.pdf)
 * [Turkish PDF](https://github.com/OWASP/ASVS/raw/v4.0.2/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0-tr.pdf)
 
