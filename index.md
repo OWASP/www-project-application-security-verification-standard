@@ -5,6 +5,7 @@ title: OWASP Application Security Verification Standard
 tags: asvs
 level: 4
 type: documentation
+pitch: The OWASP Application Security Verification Standard (ASVS) Project provides a basis for testing web application technical security controls and also provides developers with a list of requirements for secure development.
 
 ---
 [![Creative Commons License](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
