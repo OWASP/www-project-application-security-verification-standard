@@ -13,6 +13,8 @@ tags: asvs
 
 # Acknowledgements
 
+Note that since 4.x, contributors have been acknowledged in the "Frontispiece" section at the start of the ASVS document itself.
+
 ## Volunteers
 
 ### Version 3 (2015)
