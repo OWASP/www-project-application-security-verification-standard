@@ -17,6 +17,7 @@
    * [Spanish](https://github.com/OWASP/ASVS/raw/v4.0.3/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0.3-es.pdf)
 * v4.0.2
    * [German](https://github.com/OWASP/ASVS/raw/v4.0.2/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0.2-de.pdf) 
+   * [Russian](https://github.com/OWASP/ASVS/raw/v4.0.2/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0.2-ru.pdf) 
 * v4.0.1
    * [Persian](https://github.com/OWASP/ASVS/raw/v4.0.1/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0.1-fa.pdf)
    * [Japanese](https://github.com/OWASP/ASVS/raw/v4.0.1/4.0/OWASP%20Application%20Security%20Verification%20Standard%204.0.1-ja.pdf)
