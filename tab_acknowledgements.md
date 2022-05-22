@@ -3,7 +3,7 @@ title: acknowledgements
 displaytext: Acknowledgements
 layout: null
 tab: true
-order: 3
+order: 4
 tags: asvs
 ---
 [![Creative Commons License](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
@@ -14,6 +14,8 @@ tags: asvs
 # Acknowledgements
 
 Note that since 4.x, contributors have been acknowledged in the "Frontispiece" section at the start of the ASVS document itself.
+
+Time and financial supporters are recognised on the "[Supporters](https://owasp.org/www-project-application-security-verification-standard/#div-supporters)" tab.
 
 ## Volunteers
 
