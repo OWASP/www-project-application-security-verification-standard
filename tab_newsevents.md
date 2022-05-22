@@ -12,6 +12,7 @@ tags: asvs
 [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_ASVS.svg?style=social&label=Follow)](https://twitter.com/OWASP_ASVS)
 
 ## News and Events
+* [15 May 2022] The [plan and roadmap](https://owasp.org/blog/2022/05/15/asvs-5.0-roadmap.html) towards ASVS version 5.0 was announced!
 * [28 October 2021] [ASVS 4.0.3](https://github.com/OWASP/ASVS/tree/v4.0.3#latest-stable-version---403) released!
 * [27 October 2020] [ASVS 4.0.2](https://github.com/OWASP/ASVS/tree/v4.0.2#latest-stable-version---402) released!
 * [2 March 2019] [ASVS 4.0.1](https://github.com/OWASP/ASVS/tree/v4.0.1/4.0) released!

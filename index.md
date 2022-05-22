@@ -23,9 +23,7 @@ The primary aim of the **OWASP Application Security Verification Standard (ASVS)
 * **Use as guidance** - Provide guidance to security control developers as to what to build into security controls in order to satisfy application security requirements, and 
 * **Use during procurement** - Provide a basis for specifying application security verification requirements in contracts.
 
-## OWASP ASVS 4.0.3 Released!
-
-Get the new version of the ASVS (4.0.3) from the [Downloads](https://github.com/OWASP/ASVS/tree/v4.0.3#latest-stable-version---403) page.
+Get the latest stable version of the ASVS (4.0.3) from the [Downloads](https://github.com/OWASP/ASVS/tree/v4.0.3#latest-stable-version---403) page and **the [plan and roadmap](https://owasp.org/blog/2022/05/15/asvs-5.0-roadmap.html) towards ASVS version 5.0 has been announced!**
 
 ## How To Reference ASVS Requirements
 
