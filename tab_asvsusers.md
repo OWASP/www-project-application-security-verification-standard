@@ -13,6 +13,12 @@ tags: asvs
 
 ## ASVS Users
 
+### CREST OWASP Verification Standard (OVS) Programme
+
+The [CREST OWASP OVS Programme](https://www.crest-approved.org/membership/crest-ovs-programme/) accredits companies that provide app security testing services to the application development industry. The testing to be performed is based on the ASVS (and MASVS) projects.
+
+### Other users
+
 A broad range of companies and agencies around the globe have added ASVS to their software assurance tool boxes, including:
 * [Booz Allen Hamilton](https://www.boozallen.com)
 * [CGI Federal](https://www.cgi.com/us/en-us/federal)
