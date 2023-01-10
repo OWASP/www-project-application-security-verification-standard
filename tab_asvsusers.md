@@ -34,3 +34,4 @@ A broad range of companies and agencies around the globe have added ASVS to thei
 * [Universidad Distrital Francisco José de Caldas](https://www.udistrital.edu.co/)
 
 Organizations listed are not accredited by OWASP. Neither their products or services have been endorsed by OWASP. Use of ASVS may include for example providing verification services using the standard. Use of ASVS may also include for example performing internal evaluation of products with the OWASP ASVS in mind, and NOT making any claims of meeting any given level in the standard. Please let us know how your organization is using OWASP ASVS. Include your name, organization's name, and brief description of how you use the standard. The project leads can be reached using the contact details on the main page.
+ 
