@@ -20,10 +20,12 @@ The [CREST OWASP OVS Programme](https://www.crest-approved.org/membership/crest-
 ### Other users
 
 A broad range of companies and agencies around the globe have added ASVS to their software assurance tool boxes, including:
+
 * [Booz Allen Hamilton](https://www.boozallen.com)
 * [CGI Federal](https://www.cgi.com/us/en-us/federal)
 * [Denim Group](https://denimgroup.com)
 * [Etebaran Informatics](http://etebaran.com)
+* [Inspectiv](https://www.inspectiv.com/) uses ASVS in its pen tests in order to have a comprehensive, vendor neutral, guideline for testing the security of applications and websites.
 * [Minded Security](https://www.mindedsecurity.com)
 * [Nixu](https://www.nixu.com)
 * [Pensive Security](https://pensivesecurity.io)
