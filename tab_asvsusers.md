@@ -28,6 +28,7 @@ A broad range of companies and agencies around the globe have added ASVS to thei
 * [Inspectiv](https://www.inspectiv.com/) - "We use ASVS in our pen tests in order to have a comprehensive, vendor neutral, guideline for testing the security of applications and websites."
 * [Minded Security](https://www.mindedsecurity.com)
 * [Nixu](https://www.nixu.com)
+* [NVISO](https://nviso.eu) uses the ASVS as a baseline for their Web Application Penetration Tests to provide a reliable service for their customers.
 * [Pensive Security](https://pensivesecurity.io)
 * [ps_testware](https://www.pstestware.com/)
 * [Proactive Risk](https://www.proactiverisk.com)
