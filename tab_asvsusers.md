@@ -17,6 +17,10 @@ tags: asvs
 
 The [CREST OWASP OVS Programme](https://www.crest-approved.org/membership/crest-ovs-programme/) accredits companies that provide app security testing services to the application development industry. The testing to be performed is based on the ASVS (and MASVS) projects.
 
+### App Defense Alliance
+
+The [App Defense Alliance](https://appdefensealliance.dev/) has based its [Cloud Application Security Assessment (CASA)](https://appdefensealliance.dev/casa) program on the ASVS project.
+
 ### Other users
 
 A broad range of companies and agencies around the globe have added ASVS to their software assurance tool boxes, including:
