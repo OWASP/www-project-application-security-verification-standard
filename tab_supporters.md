@@ -48,12 +48,13 @@ Organizations who have donated $3,000 or more to the project via OWASP. Supporte
 
 Organizations who have donated $500 or more to the project via OWASP. Supporter will be listed in this section for 1 year from the date of the donation.
 
-[<img src="./assets/images/oneconsult.svg" height=65>](https://www.oneconsult.com)
+<!--[<img src="./assets/images/oneconsult.svg" height=65>](https://www.oneconsult.com)-->
+[<img src="./assets/images/jitlogo.svg" height=65>](https://www.jit.io)
 
 ## Associate supporters 
 
 Organizations who have donated another amount to the project via OWASP. Supporter will be listed in this section for 1 year from the date of the donation.
 
-[<img src="./assets/images/apiiro.svg" height=50>](https://apiiro.com/)
+<!--[<img src="./assets/images/apiiro.svg" height=50>](https://apiiro.com/)-->
 
-[<img src="./assets/images/crestlogo.png" height=50>](https://www.crest-approved.org/)
+<!--[<img src="./assets/images/crestlogo.png" height=50>](https://www.crest-approved.org/)-->
