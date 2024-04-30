@@ -37,6 +37,7 @@ A broad range of companies and agencies around the globe have added ASVS to thei
 * [ps_testware](https://www.pstestware.com/)
 * [Proactive Risk](https://www.proactiverisk.com)
 * [Quince Associates Limited (SeeMyData)](https://quince.co.uk)
+* [ReqView](https://www.reqview.com/) - "We use the ASVS as a document template in ReqView requirements management tool and demonstrate its usage in our Example project."
 * [Serviço Federal de Processamento de Dados (SERPRO)](http://www.serpro.gov.br/)
 * [Universidad Distrital Francisco José de Caldas](https://www.udistrital.edu.co/)
 
