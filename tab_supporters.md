@@ -11,6 +11,9 @@ tags: asvs
 ![Github stars ASVS](https://img.shields.io/github/stars/OWASP/asvs?label=Stars%20ASVS&style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_ASVS.svg?style=social&label=Follow)](https://twitter.com/OWASP_ASVS)
 
+<!--Don't forget to update https://github.com/OWASP/ASVS/issues/1888 -->
+<!--Don't forget to update https://docs.google.com/spreadsheets/d/1OrbrYy6R4ux_BuE2rJ17jQurBYbGz4bwAPJWFK4opew/edit#gid=0-->
+
 # ASVS Supporters
 
 ## Introduction
@@ -61,3 +64,4 @@ Organizations who have donated another amount to the project via OWASP. Supporte
 <!--[<img src="./assets/images/apiiro.svg" height=50](https://apiiro.com/)-->
 
 <!--Don't forget to update https://github.com/OWASP/ASVS/issues/1888 -->
+<!--Don't forget to update https://docs.google.com/spreadsheets/d/1OrbrYy6R4ux_BuE2rJ17jQurBYbGz4bwAPJWFK4opew/edit#gid=0-->
