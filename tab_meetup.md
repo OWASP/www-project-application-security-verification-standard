@@ -10,11 +10,11 @@ tags: asvs
 [![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory)
 [![Github stars ASVS](https://img.shields.io/github/stars/OWASP/asvs?label=Stars%20ASVS&style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_ASVS.svg?style=social&label=Follow)](https://twitter.com/OWASP_ASVS)
-[![LinkedIn Follow](./assets/images/googlelogo.png)](https://www.linkedin.com/company/owasp-asvs)
+[![LinkedIn Follow](./assets/images/LinkedIn_Logo.svg)](https://www.linkedin.com/company/owasp-asvs)
 
 # OWASP ASVS Community Meetup 2024
 
-<img src="./assets/images/ASVS_Community_Meetup_Lisbon.png" height=105>
+<img src="./assets/images/ASVS_Community_Meetup_Lisbon.png" height=600>
 
 We are excited to announce that we wil be holding a community meetup for the ASVS project as part of Global AppSec Lisbon on 27th June 2024 in room 1.13 of the conference venue!
 
