@@ -16,7 +16,7 @@ tags: asvs
 
 # OWASP ASVS Community Meetup 2024
 
-We are excited to announce that we wil be holding a community meetup for the ASVS project as part of Global AppSec Lisbon on 27th June 2024 in room 1.13 of the conference venue!
+We are excited to announce that we will be holding a community meetup for the ASVS project as part of Global AppSec Lisbon on 27th June 2024 in room 1.13 of the conference venue!
 
 We are particularly excited that Jim Manico will be giving the opening keynote to reintroduce the ASVS and the background behind the project.
 
