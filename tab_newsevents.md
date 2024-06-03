@@ -12,6 +12,7 @@ tags: asvs
 [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_ASVS.svg?style=social&label=Follow)](https://twitter.com/OWASP_ASVS)
 [![LinkedIn Follow](./assets/images/LinkedIn_Logo.svg)](https://www.linkedin.com/company/owasp-asvs)
 
+
 ## News and Events
 * [01 June 2024] Announcing the first [OWASP ASVS Community Meetup](https://owasp.org/www-project-application-security-verification-standard/#div-meetup) at Global AppSec Lisbon!
 * [22 May 2022] Started recognising [time and financial supporters](https://owasp.org/www-project-application-security-verification-standard/#div-supporters) of the ASVS.

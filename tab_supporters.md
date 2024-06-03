@@ -12,6 +12,7 @@ tags: asvs
 [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_ASVS.svg?style=social&label=Follow)](https://twitter.com/OWASP_ASVS)
 [![LinkedIn Follow](./assets/images/LinkedIn_Logo.svg)](https://www.linkedin.com/company/owasp-asvs)
 
+
 <!--Don't forget to update https://github.com/OWASP/ASVS/issues/1888 -->
 <!--Don't forget to update https://docs.google.com/spreadsheets/d/1OrbrYy6R4ux_BuE2rJ17jQurBYbGz4bwAPJWFK4opew/edit#gid=0-->
 
