@@ -2,7 +2,7 @@
 title: glossary
 displaytext: Glossary
 layout: null
-tab: true
+tab: false
 order: 6
 tags: asvs
 ---
