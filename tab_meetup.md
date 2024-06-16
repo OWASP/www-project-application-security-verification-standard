@@ -22,6 +22,15 @@ We are particularly excited that Jim Manico will be giving the opening keynote t
 
 There will also be an update on the current status of the standard and time allocated to work on the upcoming version 5.0. Additionally, we would love to get more community members involved in the ASVS and other than working on the standard we will also have information about other volunteering opportunities to help develop and promote the project!
 
+## Full Agenda
+
+You can see the current, full agenda here. Note that we are still confirming it!
+
+<a id="sched-embed" href="https://owaspglobalappseclisbon2024.sched.com/2024-06-27/overview/venue/Room:%201.13%20CCL/" data-sched-sidebar="no">View the ASVS Community Meetup schedule.</a><script type="text/javascript" src="https://owaspglobalappseclisbon2024.sched.com/js/embed.js"></script>
+
+
+## More Information
+
 Follow us on social media to ensure you don't miss further information about the agenda which we will be releasing in due course:
 * [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_ASVS.svg?style=social&label=Follow)](https://twitter.com/OWASP_ASVS)
 * [<img src="./assets/images/LinkedIn_Logo.svg" height=20>](https://www.linkedin.com/company/owasp-asvs/)
