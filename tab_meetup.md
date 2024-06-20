@@ -26,7 +26,7 @@ There will also be an update on the current status of the standard and time allo
 
 You can see the current agenda here. Note that we are still working on finalising it!
 
-<a id="sched-embed" href="https://owaspglobalappseclisbon2024.sched.com/2024-06-27/overview/venue/Room:%201.13%20CCL/" data-sched-sidebar="no">View the ASVS Community Meetup schedule.</a><script type="text/javascript" src="https://owaspglobalappseclisbon2024.sched.com/js/embed.js"></script>
+<a id="sched-embed" href="https://owaspglobalappseclisbon2024.sched.com/type/ASVS+Community+Meetup/" data-sched-sidebar="no">View the ASVS Community Meetup schedule.</a><script type="text/javascript" src="https://owaspglobalappseclisbon2024.sched.com/js/embed.js"></script>
 
 
 ## More Information
