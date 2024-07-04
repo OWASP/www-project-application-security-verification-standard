@@ -16,22 +16,26 @@ tags: asvs
 
 # OWASP ASVS Community Meetup 2024
 
-We are excited to announce that we will be holding a community meetup for the ASVS project as part of Global AppSec Lisbon on 27th June 2024 in room 1.13 of the conference venue!
+We held a community meetup for the ASVS project as part of Global AppSec Lisbon on 27th June 2024!
 
-We are particularly excited that Jim Manico will be giving the opening keynote to reintroduce the ASVS and the background behind the project.
+Jim Manico gave the opening keynote to reintroduce the ASVS and the background behind the project and we had some [other great talks](#full-agenda) as well!
 
-There will also be an update on the current status of the standard and time allocated to work on the upcoming version 5.0. Additionally, we would love to get more community members involved in the ASVS and other than working on the standard we will also have information about other volunteering opportunities to help develop and promote the project!
+There was also an update on the current status of the standard and time allocated to work on the upcoming version 5.0.
+
+You can see full details in the blog post we published about it: <https://owasp.org/blog/2024/07/03/asvs-community-meetup.html>
+
+Additionally, we would love to get more community members involved in the ASVS and other than working on the standard we also have information about other volunteering opportunities to help develop and promote the project! See the "[Get Involved](https://appsecg.host/asvsgetinvolved)" tab above!.
 
 ## Full Agenda
 
-You can see the current agenda here. Note that we are still working on finalising it!
+You can see the current agenda we had here.
 
 <a id="sched-embed" href="https://owaspglobalappseclisbon2024.sched.com/type/ASVS+Community+Meetup/" data-sched-sidebar="no">View the ASVS Community Meetup schedule.</a><script type="text/javascript" src="https://owaspglobalappseclisbon2024.sched.com/js/embed.js"></script>
 
 
 ## More Information
 
-Follow us on social media to ensure you don't miss updates about the agenda which we will be releasing in due course:
+Follow us on social media to ensure you don't miss updates about the ASVS:
 * [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_ASVS.svg?style=social&label=Follow)](https://twitter.com/OWASP_ASVS)
 * [<img src="./assets/images/LinkedIn_Logo.svg" height=20>](https://www.linkedin.com/company/owasp-asvs/)
 
