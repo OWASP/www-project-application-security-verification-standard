@@ -11,3 +11,4 @@
 * [Ralph Andalis](https://github.com/csfreak92)
 * [Meghan Jacquot](https://github.com/meghanjacquot)
 * [Iman Sharafaldin](https://github.com/ImanSharaf)
+* [Ryan Armstrong](https://github.com/ryarmst)
