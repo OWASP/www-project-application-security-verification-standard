@@ -22,6 +22,12 @@ The OWASP Application Security Verification Standard (ASVS) Project provides a b
 
 For more details on how to financially support the ASVS, see our [Supporters Page](https://appsecg.host/fundasvs).
 
+## Stay up to date with the ASVS
+
+Follow us on social media to ensure you don't miss updates about the ASVS:
+* [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_ASVS.svg?style=social&label=Follow)](https://twitter.com/OWASP_ASVS)
+* [<img src="./assets/images/LinkedIn_Logo.svg" height=20>](https://www.linkedin.com/company/owasp-asvs/)
+
 ## More Details on the ASVS
 
 The primary aim of the **OWASP Application Security Verification Standard (ASVS) Project** is to normalize the range in the coverage and level of rigor available in the market when it comes to performing Web application security verification using a commercially-workable open standard. The standard provides a basis for testing application technical security controls, as well as any technical security controls in the environment, that are relied on to protect against vulnerabilities such as Cross-Site Scripting (XSS) and SQL injection. This standard can be used to establish a level of confidence in the security of Web applications. The requirements were developed with the following objectives in mind: 
