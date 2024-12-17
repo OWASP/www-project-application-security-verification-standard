@@ -29,7 +29,7 @@ A broad range of companies and agencies around the globe have added ASVS to thei
 * [Booz Allen Hamilton](https://www.boozallen.com)
 * [CGI Federal](https://www.cgi.com/us/en-us/federal)
 * [Denim Group](https://denimgroup.com)
-* [Etebaran Informatics](http://etebaran.com)
+* [Etebaran Informatics](https://etebaran.com)
 * [Inspectiv](https://www.inspectiv.com/) - "We use ASVS in our pen tests in order to have a comprehensive, vendor neutral, guideline for testing the security of applications and websites."
 * [Minded Security](https://www.mindedsecurity.com)
 * [Nixu](https://www.nixu.com)
@@ -39,7 +39,7 @@ A broad range of companies and agencies around the globe have added ASVS to thei
 * [Proactive Risk](https://www.proactiverisk.com)
 * [Quince Associates Limited (SeeMyData)](https://quince.co.uk)
 * [ReqView](https://www.reqview.com/) - "We use the ASVS as a document template in ReqView requirements management tool and demonstrate its usage in our Example project."
-* [Serviço Federal de Processamento de Dados (SERPRO)](http://www.serpro.gov.br/)
+* [Serviço Federal de Processamento de Dados (SERPRO)](https://www.serpro.gov.br/)
 * [Universidad Distrital Francisco José de Caldas](https://www.udistrital.edu.co/)
 
 Organizations listed are not accredited by OWASP. Neither their products or services have been endorsed by OWASP. Use of ASVS may include for example providing verification services using the standard. Use of ASVS may also include for example performing internal evaluation of products with the OWASP ASVS in mind, and NOT making any claims of meeting any given level in the standard. Please let us know how your organization is using OWASP ASVS. Include your name, organization's name, and brief description of how you use the standard. The project leads can be reached using the contact details on the main page.
