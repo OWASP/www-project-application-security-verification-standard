@@ -18,6 +18,12 @@ headerimage: ./assets/images/OWASP_ASVS_Linkedin_Banner-01.jpg
 
 The OWASP Application Security Verification Standard (ASVS) Project provides a basis for testing web application technical security controls and also provides developers with a list of requirements for secure development.
 
+## ASVS 5.0 Release Candidate is ready for review
+
+🎉🎉🎉 **We are now at the RC1 stage of ASVS version 5.0!** 🎉🎉🎉
+
+See the [ASVS Contribution Guide](https://github.com/OWASP/ASVS/blob/master/CONTRIBUTING.md) for more details!
+
 ## Support the ASVS
 
 For more details on how to financially support the ASVS, see our [Supporters Page](https://appsecg.host/fundasvs).
@@ -36,7 +42,7 @@ The primary aim of the **OWASP Application Security Verification Standard (ASVS)
 * **Use as guidance** - Provide guidance to security control developers as to what to build into security controls in order to satisfy application security requirements, and 
 * **Use during procurement** - Provide a basis for specifying application security verification requirements in contracts.
 
-Get the latest stable version of the ASVS (4.0.3) from the [Downloads](https://github.com/OWASP/ASVS/tree/v4.0.3#latest-stable-version---403) page and **the [plan and roadmap](https://owasp.org/blog/2022/05/15/asvs-5.0-roadmap.html) towards ASVS version 5.0 has been announced!**
+Get the latest stable version of the ASVS (4.0.3) from the [Downloads](https://github.com/OWASP/ASVS/tree/v4.0.3#latest-stable-version---403).
 
 ## How To Reference ASVS Requirements
 

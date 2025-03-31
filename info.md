@@ -1,6 +1,6 @@
 ### Source in GitHub
 * [Stable Release 4.0.3](https://github.com/OWASP/ASVS/tree/v4.0.3/4.0)
-* ["Bleeding Edge" version](https://github.com/OWASP/ASVS/tree/master/5.0)
+* ["Bleeding Edge" Release Candidate](https://github.com/OWASP/ASVS/tree/master/5.0) (Still undergoing changes)
 
 #### Previous stable releases:
 * [Stable Release 4.0.2](https://github.com/OWASP/ASVS/tree/v4.0.2/4.0)

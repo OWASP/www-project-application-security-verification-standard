@@ -14,6 +14,8 @@ tags: asvs
 
 
 ## News and Events
+* [31 March 2025] Release Candidate 1 of the ASVS version 5.0 is announced!
+* [04 November 2024] Some of the ASVS team got together at the [OWASP Project Summit](https://web.archive.org/web/20250000000000*/https://owaspprojectsummit.org/) to make major progress on getting towards version 5.0!
 * [01 June 2024] Announcing the first [OWASP ASVS Community Meetup](https://owasp.org/www-project-application-security-verification-standard/#div-meetup) at Global AppSec Lisbon!
 * [22 May 2022] Started recognising [time and financial supporters](https://owasp.org/www-project-application-security-verification-standard/#div-supporters) of the ASVS.
 * [15 May 2022] The [plan and roadmap](https://owasp.org/blog/2022/05/15/asvs-5.0-roadmap.html) towards ASVS version 5.0 was announced!
