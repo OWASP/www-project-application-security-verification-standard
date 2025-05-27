@@ -12,7 +12,6 @@
 * [Meghan Jacquot](https://github.com/meghanjacquot)
 * [Iman Sharafaldin](https://github.com/ImanSharaf)
 * [Ryan Armstrong](https://github.com/ryarmst)
-
-### Wider Team
-
-* [Matthew Aderhold](https://www.linkedin.com/in/matthewaderhold/) - Community Manager
+* [Gabriel Corona](https://github.com/randomstuff)
+* [Tobias Ahnoff](https://github.com/TobiasAhnoff)
+* [Eden Yardeni](https://github.com/cronchie). 
