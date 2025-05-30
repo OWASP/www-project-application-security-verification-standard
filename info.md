@@ -6,9 +6,9 @@
 * [Stable Release 4.0.3](https://github.com/OWASP/ASVS/tree/v4.0.3/4.0)
 
 ### Downloads (ASVS 5.0.0)
-* [English PDF](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP%20Application%20Security%20Verification%20Standard%205.0.0-en.pdf)
-* [English Word](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_en/OWASP%20Application%20Security%20Verification%20Standard%205.0.0-en.docx)
-* [English CSV](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_en/OWASP%20Application%20Security%20Verification%20Standard%205.0.0-en.csv)
+* [English PDF](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_en.pdf)
+* [English Word](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_en/OWASP_Application_Security_Verification_Standard_5.0.0_en.docx)
+* [English CSV](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_en/OWASP_Application_Security_Verification_Standard_5.0.0_en.csv)
 * [OWASP Application Security Verification Standard 5.0.0 (GitHub Tag)](https://github.com/OWASP/ASVS/tree/v5.0.0)
 
 ### Translations:
