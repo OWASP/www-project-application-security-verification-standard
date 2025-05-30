@@ -14,4 +14,4 @@
 * [Ryan Armstrong](https://github.com/ryarmst)
 * [Gabriel Corona](https://github.com/randomstuff)
 * [Tobias Ahnoff](https://github.com/TobiasAhnoff)
-* [Eden Yardeni](https://github.com/cronchie). 
+* [Eden Yardeni](https://github.com/cronchie)
