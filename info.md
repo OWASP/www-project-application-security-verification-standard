@@ -13,7 +13,9 @@
 
 ### Translations:
 
-There are currently no translations for version v5.0.0. Historic translations of the v4.x versions can be found in the [TRANSLATIONS.md file](https://github.com/OWASP/ASVS/blob/master/4.0/TRANSLATIONS.md) in the 4.0 folder.
+There are currently no translations for version v5.0.0 but you can see [in-progress translations here](https://github.com/OWASP/ASVS/blob/master/CONTRIBUTING.md#translations).
+
+Historic translations of the v4.x versions can be found in the [TRANSLATIONS.md file](https://github.com/OWASP/ASVS/blob/master/4.0/TRANSLATIONS.md) in the 4.0 folder.
 
 ### Social Links
 Follow the project on Twitter at: [@OWASP_ASVS](https://twitter.com/OWASP_ASVS)
