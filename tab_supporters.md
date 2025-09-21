@@ -43,8 +43,6 @@ Organizations who have allowed contributors to spend significant time working on
 Organizations who have donated $7,000 or more to the project via OWASP. Supporter will be listed in this section for 3 years from the date of the donation.
 <!--95-->
 
-[<img src="./assets/images/googlelogo.png" height=95>](https://about.google/)
-
 ## Secondary supporters
 
 Organizations who have donated $3,000 or more to the project via OWASP. Supporter will be listed in this section for 2 years from the date of the donation.
@@ -57,7 +55,7 @@ Organizations who have donated $3,000 or more to the project via OWASP. Supporte
 Organizations who have donated $500 or more to the project via OWASP. Supporter will be listed in this section for 1 year from the date of the donation.
 
 <!--[<img src="./assets/images/oneconsult.svg" height=65](https://www.oneconsult.com)-->
-[<img src="./assets/images/crestlogo.png" height=65>](https://www.crest-approved.org/members/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="./assets/images/forwardseclogo.jpg" height=65>](https://forwardsecurity.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="./assets/images/omegapointlogo.png" height=65>](https://en.omegapoint.se/)
+[<img src="./assets/images/forwardseclogo.jpg" height=65>](https://forwardsecurity.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="./assets/images/omegapointlogo.png" height=65>](https://en.omegapoint.se/)
 
 ## Associate supporters 
 
