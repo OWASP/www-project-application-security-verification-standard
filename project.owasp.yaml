@@ -1,0 +1,48 @@
+audience:
+  - breaker
+  - builder
+  - defender
+community:
+  - name: project-asvs
+    platform: slack
+    url: https://owasp.slack.com/archives/C06MNF14M
+    description: Discuss the OWASP ASVS
+  - name: asvs-translation-pt
+    platform: slack
+    url: https://owasp.slack.com/archives/C02Q8H2AYBZ
+    description: Translation of ASVS to Portuguese
+  - name: asvs-translation-de
+    platform: slack
+    url: https://owasp.slack.com/archives/CHKP9318T
+leaders:
+  - name: Daniel Cuthbert
+    email: daniel.cuthbert@owasp.org
+    github: danielcuthbert
+  - name: Jim Manico
+    email: jim.manico@owasp.org
+    github: jmanico
+  - name: Elar Lang
+    email: elarlang@gmail.com
+    github: elarlang
+  - name: Josh Grossman
+    email: josh.grossman@owasp.org
+    github: tghosth
+level: 4
+license:
+  - CC-BY-SA-4.0
+name: OWASP Application Security Verification Standard (ASVS)
+pitch: The OWASP Application Security Verification Standard (ASVS) Project is a framework of security requirements that focus on defining the security controls
+  required when designing, developing and testing modern web applications and web services.
+repositories:
+  - name: www-project-application-security-verification-standard
+    url: https://github.com/OWASP/www-project-application-security-verification-standard
+    description: OWASP Foundation Web Repository
+  - name: ASVS
+    url: https://github.com/OWASP/ASVS
+    description: Application Security Verification Standard
+tags:
+  - asvs
+  - custom-tag-1
+  - custom-tag-2
+type: documentation
+website: https://owasp.org/www-project-application-security-verification-standard
