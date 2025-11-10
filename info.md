@@ -17,6 +17,7 @@
   * [Turkish](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_tr.pdf)
   * [Russian](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_ru.pdf)
   * [French](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_fr.pdf)
+  * [Korean](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_ko.pdf)
 
 You can see other [in-progress translations here](https://github.com/OWASP/ASVS/blob/master/CONTRIBUTING.md#translations). Historic translations of the v4.x versions can be found in the [TRANSLATIONS.md file](https://github.com/OWASP/ASVS/blob/master/4.0/TRANSLATIONS.md) in the 4.0 folder.
 
