@@ -20,7 +20,7 @@ The [CREST OWASP OVS Programme](https://www.crest-approved.org/membership/crest-
 
 ### App Defense Alliance
 
-The [App Defense Alliance](https://appdefensealliance.dev/) has based its [Cloud Application Security Assessment (CASA)](https://appdefensealliance.dev/casa) program on the ASVS project.
+The [App Defense Alliance](https://www.appdefensealliance.org/) has based its [Web App Profile](https://www.appdefensealliance.org/profiles/web-app-profile) on the ASVS project.
 
 ### Other users
 
