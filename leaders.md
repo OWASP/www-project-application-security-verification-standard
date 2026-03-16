@@ -4,10 +4,6 @@
 * [Elar Lang](mailto:elarlang@gmail.com)
 * [Josh Grossman](mailto:josh.grossman@owasp.org)
 
-### Previous Leaders
-
-* [Jim Manico](mailto:jim.manico@owasp.org)
-
 ### Working Group
 
 * [Shanni Prutchi](https://github.com/EnigmaRosa)
