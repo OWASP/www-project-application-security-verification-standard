@@ -12,7 +12,12 @@
 * [English PDF](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_en.pdf)
 * [English Word](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_en/OWASP_Application_Security_Verification_Standard_5.0.0_en.docx)
 * [English CSV](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_en/OWASP_Application_Security_Verification_Standard_5.0.0_en.csv)
-* [GitHub Branch for v5.0.0)](https://github.com/OWASP/ASVS/tree/v5.0.0)
+* [GitHub Branch for v5.0.0](https://github.com/OWASP/ASVS/tree/v5.0.0)
+
+#### Local Mirror of Release
+
+* [Full repo as at 5.0.0 release](./assets/ASVS-5.0.0_release.zip)
+
 
 #### Translations:
 
@@ -23,10 +28,6 @@
   * [Korean](https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_ko.pdf)
 
 You can see other [in-progress translations here](https://github.com/OWASP/ASVS/blob/master/CONTRIBUTING.md#translations). Historic translations of the v4.x versions can be found in the [TRANSLATIONS.md file](https://github.com/OWASP/ASVS/blob/master/4.0/TRANSLATIONS.md) in the 4.0 folder.
-
-#### Local Mirror of Release
-
-* [Full repo as at 5.0.0 release](/assets/ASVS-5.0.0_release.zip)
 
 #### Branding Assets
 
