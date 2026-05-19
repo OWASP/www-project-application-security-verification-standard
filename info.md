@@ -16,8 +16,7 @@
 
 #### Local Mirror of Release
 
-* [Full repo as at 5.0.0 release](./assets/ASVS-5.0.0_release.zip)
-
+* [5.0.0 release files](./assets/ASVS-5.0.0_release.zip)
 
 #### Translations:
 
