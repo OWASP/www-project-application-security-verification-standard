@@ -24,6 +24,10 @@
 
 You can see other [in-progress translations here](https://github.com/OWASP/ASVS/blob/master/CONTRIBUTING.md#translations). Historic translations of the v4.x versions can be found in the [TRANSLATIONS.md file](https://github.com/OWASP/ASVS/blob/master/4.0/TRANSLATIONS.md) in the 4.0 folder.
 
+#### Local Mirror of Release
+
+* [Full repo as at 5.0.0 release](/assets/ASVS-5.0.0_release.zip)
+
 #### Branding Assets
 
 The ASVS's branding assets were created by [Hugo Costa](https://www.linkedin.com/in/hugo75costa/) and can be [found here](https://github.com/OWASP/www-project-application-security-verification-standard/tree/master/brand/).
