@@ -8,7 +8,7 @@ permalink: /news/
 [![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory)
 ![Github stars ASVS](https://img.shields.io/github/stars/OWASP/asvs?label=Stars%20ASVS&style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_ASVS.svg?style=social&label=Follow)](https://twitter.com/OWASP_ASVS)
-[<img src="{{ '/assets/' | relative_url }}images/LinkedIn_Logo.svg" height=20>](https://www.linkedin.com/company/owasp-asvs/)
+[<img src="{{ '/assets/' | relative_url }}images/LinkedIn_Logo.svg" height=20 style="max-height:20px; width:auto">](https://www.linkedin.com/company/owasp-asvs/)
 
 
 ## News and Events

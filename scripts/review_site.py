@@ -30,6 +30,9 @@ with sync_playwright() as p:
     page.evaluate('document.fonts.ready')
     capture(page, 'desktop-overview')
     print('ASVS_REVIEW ' + json.dumps({'sidebar_background': page.locator('.side-bar').evaluate('(e) => getComputedStyle(e).backgroundColor'), 'navigation_links': page.locator('.site-nav .nav-list-link').all_text_contents(), 'broken_images': page.locator('img').evaluate_all('(imgs) => imgs.filter(i => !i.complete || i.naturalWidth === 0).map(i => i.src)')}), flush=True)
+    assert 'placeholder' not in page.locator('.site-nav .nav-list-link').all_text_contents()
+    assert page.locator('img[src$="LinkedIn_Logo.svg"]').first.evaluate('(i) => i.getBoundingClientRect().height') <= 21
+    assert page.locator('.btn-primary').first.evaluate('(e) => getComputedStyle(e).backgroundColor') == 'rgb(0, 53, 148)'
     search = page.locator('#search-input')
     search.fill('downloads')
     page.wait_for_timeout(1500)
