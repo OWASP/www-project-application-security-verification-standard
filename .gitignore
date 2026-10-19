@@ -2,3 +2,7 @@ __pycache__
 env
 .vscode
 _site/
+
+vendor/
+
+.bundle/

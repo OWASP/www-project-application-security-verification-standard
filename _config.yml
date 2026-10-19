@@ -29,6 +29,7 @@ aux_links:
 aux_links_new_tab: false
 
 exclude:
+  - start-site.bat
   - assets/images/README.md
   - README.md
   - Gemfile
