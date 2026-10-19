@@ -45,3 +45,15 @@ The default address is https://owasp.github.io/www-project-application-security-
 ## Migration provenance
 
 Source content was read from the upstream master branch through GitHub's connector. The patch changes text files only and preserves the existing binary assets in the target repository. The migration branch is based on the current OWASP commit and retains all binary assets through its original Git tree.
+
+## Windows installation troubleshooting
+
+If dependency installation reports `failed to load encoding (UTF-16BE)`, first check Ruby independently of the site:
+
+```powershell
+ruby -e "p 'test'.encode('UTF-16BE').bytes"
+```
+
+If this fails, repair or reinstall Ruby 4.0.7 with Devkit and reopen your terminal. The launcher checks this before installing dependencies.
+
+If the encoding check passes but RubyGems crashes verifying a downloaded gem, update its tooling (`gem update --system`) and remove only the specific cached `.gem` named in the error, then rerun `start-site.bat`. Do not disable gem verification.

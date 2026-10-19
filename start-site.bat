@@ -24,6 +24,14 @@ if errorlevel 1 (
     goto :failed
 )
 
+rem Fail early if Ruby's encoding extension is missing or cannot be loaded.
+ruby -e "s = 'test'.encode('UTF-16BE'); abort('Unexpected encoding result') unless s.encoding.name == 'UTF-16BE'"
+if errorlevel 1 (
+    echo Ruby's UTF-16BE encoding support failed before dependency installation.
+    echo Repair or reinstall Ruby 4.0.7 with Devkit, then open a new terminal.
+    goto :failed
+)
+
 rem Keep downloaded gems in this checkout.
 set "BUNDLE_PATH=vendor/bundle"
 set "JEKYLL_ENV=development"

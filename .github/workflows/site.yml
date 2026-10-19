@@ -64,18 +64,16 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '4.0.7'
-          bundler-cache: true
-      - name: Build on Windows
-        run: bundle exec jekyll build
-      - name: Test batch launcher
+          bundler-cache: false
+      - name: Test first-run dependency installation and batch launcher
         shell: python
         run: |
           import subprocess, time, urllib.request
           from pathlib import Path
           with open('launcher.log', 'w') as log:
-              process = subprocess.Popen(['cmd', '/c', 'start-site.bat'], stdout=log, stderr=subprocess.STDOUT)
+              process = subprocess.Popen(['cmd', '/c', 'start-site.bat'], stdin=subprocess.DEVNULL, stdout=log, stderr=subprocess.STDOUT)
               try:
-                  for _ in range(120):
+                  for _ in range(600):
                       if process.poll() is not None:
                           raise RuntimeError(Path('launcher.log').read_text())
                       try:
