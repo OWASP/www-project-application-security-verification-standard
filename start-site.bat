@@ -5,7 +5,7 @@ if errorlevel 1 exit /b 1
 
 where ruby >nul 2>&1
 if errorlevel 1 (
-    echo Ruby is required. Install Ruby 3.3 with Devkit from https://rubyinstaller.org/downloads/
+    echo Ruby is required. Install Ruby 4.0.7 with Devkit from https://rubyinstaller.org/downloads/
     echo Run the installer's MSYS2 toolchain setup, then open this file again.
     goto :failed
 )
@@ -15,6 +15,13 @@ if errorlevel 1 (
     echo Installing Bundler...
     call gem install bundler --no-document
     if errorlevel 1 goto :failed
+)
+
+ruby -e "exit(Gem::Requirement.new('~> 4.0', '>= 4.0.7').satisfied_by?(Gem::Version.new(RUBY_VERSION)) ? 0 : 1)"
+if errorlevel 1 (
+    echo This site requires Ruby 4.0.7 or a newer Ruby 4.x release.
+    echo Check ruby --version and install Ruby with Devkit from https://rubyinstaller.org/downloads/
+    goto :failed
 )
 
 rem Keep downloaded gems in this checkout.

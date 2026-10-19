@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'
+          ruby-version: '4.0.7'
           bundler-cache: true
       - name: Build Jekyll site
         env:
@@ -56,9 +56,44 @@ jobs:
         with:
           path: _site
 
+  windows:
+    name: Windows Ruby 4.0.7 launcher
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '4.0.7'
+          bundler-cache: true
+      - name: Build on Windows
+        run: bundle exec jekyll build
+      - name: Test batch launcher
+        shell: python
+        run: |
+          import subprocess, time, urllib.request
+          from pathlib import Path
+          with open('launcher.log', 'w') as log:
+              process = subprocess.Popen(['cmd', '/c', 'start-site.bat'], stdout=log, stderr=subprocess.STDOUT)
+              try:
+                  for _ in range(120):
+                      if process.poll() is not None:
+                          raise RuntimeError(Path('launcher.log').read_text())
+                      try:
+                          with urllib.request.urlopen('http://127.0.0.1:4000/', timeout=2) as response:
+                              assert 'OWASP Application Security Verification Standard' in response.read().decode()
+                              print('Windows batch launcher served the ASVS overview successfully.')
+                              break
+                      except OSError:
+                          time.sleep(1)
+                  else:
+                      raise TimeoutError(Path('launcher.log').read_text())
+              finally:
+                  subprocess.run(['taskkill', '/F', '/T', '/PID', str(process.pid)], check=False)
+                  print(Path('launcher.log').read_text())
+
   deploy:
     if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
-    needs: build
+    needs: [build, windows]
     runs-on: ubuntu-latest
     permissions:
       pages: write

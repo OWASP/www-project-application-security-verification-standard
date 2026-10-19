@@ -14,13 +14,13 @@ Use Liquid's `relative_url` filter for local links so both GitHub project paths 
 
 ### Windows
 
-Install [Ruby 3.3 with Devkit](https://rubyinstaller.org/downloads/) and complete its MSYS2 development toolchain setup (`ridk install`). Ruby must be on your PATH; reopen your terminal after installation.
+Install [Ruby 4.0.7 with Devkit](https://rubyinstaller.org/downloads/) and complete its MSYS2 development toolchain setup (`ridk install`). Ruby must be on your PATH; reopen your terminal after installation.
 
 Double-click `start-site.bat`, or run it from Command Prompt. It installs Bundler if needed, installs missing gems into `vendor/bundle`, and starts the site at **http://127.0.0.1:4000/**. The first run needs internet access; Jekyll also downloads the remote theme when it starts. Wait for the server to start before opening the URL. Keep the window open while testing and press **Ctrl+C** to stop. Changes to `_config.yml` require restarting the script.
 
 ### Other platforms
 
-Install Ruby 3.3 and Bundler, then run:
+Install Ruby 4.0.7 and Bundler, then run:
 
 ```sh
 bundle install
@@ -28,6 +28,8 @@ bundle exec jekyll serve
 ```
 
 Open http://localhost:4000/www-project-application-security-verification-standard/.
+
+The project uses Jekyll 4 directly so it can run on Ruby 4.0.7, rather than the older `github-pages` gem bundle. CI builds on Ruby 4.0.7 and checks the Windows launcher.
 
 ## Build and deployment
 
