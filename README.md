@@ -57,3 +57,9 @@ ruby -e "p 'test'.encode('UTF-16BE').bytes"
 If this fails, repair or reinstall Ruby 4.0.7 with Devkit and reopen your terminal. The launcher checks this before installing dependencies.
 
 If the encoding check passes but RubyGems crashes verifying a downloaded gem, update its tooling (`gem update --system`) and remove only the specific cached `.gem` named in the error, then rerun `start-site.bat`. Do not disable gem verification.
+
+## Theme stylesheet maintenance
+
+The theme templates remain pinned to the Secure Headers theme revision. The styles in `_sass/asvs/` are local MIT-licensed derivatives of that revision, migrated from Sass imports and deprecated global functions to modules. This removes the deprecations without changing the palette or suppressing compiler warnings.
+
+To regenerate after reviewing a theme update, check out the revision recorded in `scripts/migrate_theme_styles.py`, then run `python scripts/migrate_theme_styles.py /path/to/just-the-docs`. Commit the generated light and dark styles and license. The shared Liquid stylesheet include loads these modules for the default, light and dark stylesheets. No extra tooling is needed for a normal Jekyll build.

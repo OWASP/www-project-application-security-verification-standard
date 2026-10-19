@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // OWASP brand palette
 $owasp-blue:     #003594;
 $owasp-cyan:     #00A7E1;
@@ -136,5 +138,5 @@ pre.highlight {
 .btn-primary {
   background-color: $owasp-blue;
   background-image: none;
-  &:hover, &:focus { background-color: darken($owasp-blue, 8%); background-image: none; }
+  &:hover, &:focus { background-color: color.adjust($owasp-blue, $lightness: -8%, $space: hsl); background-image: none; }
 }

@@ -25,14 +25,17 @@ jobs:
       - name: Build Jekyll site
         env:
           JEKYLL_ENV: production
-        run: bundle exec jekyll build --baseurl "/${{ github.event.repository.name }}"
+        run: |
+          bundle exec jekyll build --baseurl "/${{ github.event.repository.name }}" 2>&1 | tee /tmp/asvs-build.log
+          python3 -c "from pathlib import Path; assert 'Deprecation Warning' not in Path('/tmp/asvs-build.log').read_text(), 'Sass deprecations returned'"
       - name: Validate generated website
         run: python3 scripts/check_site.py _site
       - name: Build and validate domain-root URLs
         env:
           JEKYLL_ENV: production
         run: |
-          bundle exec jekyll build --baseurl "" --destination /tmp/asvs-site-root
+          bundle exec jekyll build --baseurl "" --destination /tmp/asvs-site-root 2>&1 | tee /tmp/asvs-root-build.log
+          python3 -c "from pathlib import Path; assert 'Deprecation Warning' not in Path('/tmp/asvs-root-build.log').read_text(), 'Sass deprecations returned'"
           python3 scripts/check_site.py /tmp/asvs-site-root
       - name: Install browser test driver
         run: python3 -m pip install playwright
