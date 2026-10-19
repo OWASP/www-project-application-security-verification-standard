@@ -30,6 +30,13 @@ with sync_playwright() as p:
     page.evaluate('document.fonts.ready')
     capture(page, 'desktop-overview')
     print('ASVS_REVIEW ' + json.dumps({'sidebar_background': page.locator('.side-bar').evaluate('(e) => getComputedStyle(e).backgroundColor'), 'navigation_links': page.locator('.site-nav .nav-list-link').all_text_contents(), 'broken_images': page.locator('img').evaluate_all('(imgs) => imgs.filter(i => !i.complete || i.naturalWidth === 0).map(i => i.src)')}), flush=True)
+    assert page.locator('.asvs-pathway').count() == 3
+    assert page.locator('.asvs-downloads a').count() == 3
+    assert page.locator('.asvs-community-links a').count() == 3
+    for section, name in [('#release', 'desktop-release'), ('#community', 'desktop-community')]:
+        page.locator(section).scroll_into_view_if_needed()
+        capture(page, name)
+    page.evaluate('scrollTo(0, 0)')
     assert 'placeholder' not in page.locator('.site-nav .nav-list-link').all_text_contents()
     assert page.locator('img[src$="LinkedIn_Logo.svg"]').first.evaluate('(i) => i.getBoundingClientRect().height') <= 21
     assert page.locator('.btn-primary').first.evaluate('(e) => getComputedStyle(e).backgroundColor') == 'rgb(0, 53, 148)'
@@ -45,6 +52,10 @@ with sync_playwright() as p:
     mobile.goto('http://127.0.0.1:8765/', wait_until='networkidle')
     capture(mobile, 'mobile-overview')
     overflow = mobile.evaluate('document.documentElement.scrollWidth > innerWidth')
+    mobile.locator('#release').scroll_into_view_if_needed()
+    capture(mobile, 'mobile-release')
+    assert not mobile.evaluate('document.documentElement.scrollWidth > innerWidth')
+    mobile.evaluate('scrollTo(0, 0)')
     mobile.locator('#menu-button').click()
     capture(mobile, 'mobile-navigation')
     print('ASVS_BROWSER_RESULT ' + json.dumps({'javascript_errors': errors, 'mobile_horizontal_overflow': overflow, 'mobile_navigation_visible': mobile.locator('.site-nav').is_visible()}), flush=True)
