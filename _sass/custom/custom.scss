@@ -273,3 +273,11 @@ h1 { border-bottom-color: $asvs-purple; }
   .asvs-section { margin: 2rem 0; }
 }
 @media (prefers-reduced-motion: reduce) { .asvs-pathway { transition: none; } }
+
+.asvs-pathway {
+  position: relative;
+  h3 a { color: inherit; }
+  h3 a::after { position: absolute; inset: 0; border-radius: 8px; content: ""; }
+  &:focus-within { outline: 3px solid #7543aa; outline-offset: 3px; }
+  h3 a:focus-visible { outline: none; }
+}
