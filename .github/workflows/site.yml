@@ -34,6 +34,17 @@ jobs:
         run: |
           bundle exec jekyll build --baseurl "" --destination /tmp/asvs-site-root
           python3 scripts/check_site.py /tmp/asvs-site-root
+      - name: Install browser test driver
+        run: python3 -m pip install playwright
+      - name: Review desktop, mobile, and search in Chrome
+        run: python3 scripts/review_site.py
+      - name: Upload browser screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: asvs-browser-review
+          path: /tmp/asvs-review
+          retention-days: 7
       - name: Upload built website for preview
         uses: actions/upload-artifact@v4
         with:
