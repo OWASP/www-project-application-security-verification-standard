@@ -4,10 +4,16 @@ nav_order: 1
 permalink: /
 ---
 
+<div class="asvs-intro" markdown="1">
+
+<p class="asvs-eyebrow">OWASP Flagship Project · ASVS 5.0.0</p>
+
 # OWASP Application Security Verification Standard
 
 [Download ASVS 5.0.0]({{ '/downloads/' | relative_url }}){: .btn .btn-primary }
 [Get involved]({{ '/get-involved/' | relative_url }}){: .btn }
+
+</div>
 
 [![Creative Commons License](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
 [![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory)

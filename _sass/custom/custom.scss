@@ -9,8 +9,7 @@ $owasp-link:     #0056d6;
 $owasp-light-bg: #f1f6fe;
 $owasp-gray:     #757575;
 
-// Fonts
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+// Fonts are loaded by head_custom.html so they precede stylesheet rules.
 
 // CSS variable overrides (just-the-docs theming tokens)
 :root {
@@ -139,4 +138,67 @@ pre.highlight {
   background-color: $owasp-blue;
   background-image: none;
   &:hover, &:focus { background-color: color.adjust($owasp-blue, $lightness: -8%, $space: hsl); background-image: none; }
+}
+
+// ASVS visual identity: preserve the docs layout and navigation behavior.
+$asvs-purple: #7543aa;
+$asvs-navy: #14284b;
+
+.side-bar {
+  background-color: $asvs-navy;
+  .site-header { border-bottom-color: rgba(255, 255, 255, 0.16); }
+  .site-button { color: #fff; }
+}
+
+.nav-list .nav-list-item .nav-list-link {
+  border-radius: 6px 0 0 6px;
+  &.active {
+    background-color: #f0edfa;
+    color: $asvs-navy;
+    box-shadow: inset 3px 0 $asvs-purple;
+  }
+}
+
+.main-header { border-bottom: 2px solid #e8e4f0; }
+h1 { border-bottom-color: $asvs-purple; }
+
+.asvs-intro {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #e3ddec;
+  border-top: 4px solid $asvs-purple;
+  border-radius: 12px;
+  background: linear-gradient(125deg, #f7f4fc, #f5f9ff);
+  h1 {
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0;
+    border: 0;
+    font-size: clamp(1.65rem, 3vw, 2.1rem);
+    line-height: 1.25;
+  }
+  p:last-child { margin-bottom: 0; }
+  .asvs-eyebrow {
+    margin: 0;
+    color: #673295;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+}
+
+.btn { border-radius: 6px; }
+.asvs-intro .btn:not(.btn-primary) {
+  color: #673295;
+  border: 1px solid #cfc2df;
+  background: #fff;
+}
+
+.main-content h2 { margin-top: 2rem; }
+.main-content h2 + p { margin-top: 0.75rem; }
+
+@media (max-width: 31.25rem) {
+  .asvs-intro { padding: 1.1rem; }
+  .asvs-intro .btn { margin-bottom: 0.5rem; }
 }
