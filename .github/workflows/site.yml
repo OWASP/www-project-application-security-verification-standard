@@ -2,7 +2,7 @@ name: Build and deploy website
 
 on:
   push:
-    branches: [master]
+    branches: [master, site/just-the-docs-migration]
   pull_request:
   workflow_dispatch:
 
@@ -28,8 +28,20 @@ jobs:
         run: bundle exec jekyll build --baseurl "/${{ github.event.repository.name }}"
       - name: Validate generated website
         run: python3 scripts/check_site.py _site
+      - name: Build and validate domain-root URLs
+        env:
+          JEKYLL_ENV: production
+        run: |
+          bundle exec jekyll build --baseurl "" --destination /tmp/asvs-site-root
+          python3 scripts/check_site.py /tmp/asvs-site-root
+      - name: Upload built website for preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: asvs-site-preview
+          path: _site
+          retention-days: 7
       - uses: actions/upload-pages-artifact@v3
-        if: github.event_name != 'pull_request'
+        if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
         with:
           path: _site
 
