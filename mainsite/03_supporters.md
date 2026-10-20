@@ -5,7 +5,7 @@ permalink: /supporters/
 ---
 
 [![Creative Commons License](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
-[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory)
+[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects)
 ![Github stars ASVS](https://img.shields.io/github/stars/OWASP/asvs?label=Stars%20ASVS&style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_ASVS.svg?style=social&label=Follow)](https://twitter.com/OWASP_ASVS)
 [<img src="{{ '/assets/' | relative_url }}images/LinkedIn_Logo.svg" height=20 style="max-height:20px; width:auto">](https://www.linkedin.com/company/owasp-asvs/)
@@ -24,7 +24,7 @@ We recognise various tiers of support and the amount of time the supporter is re
 
 On this page and the project web page, we will display the supporter's logo and link to their website and we will publicise via Social Media as well.
 
-If you would like to directly become a Primary, Secondary or Tertiary supporter, you can make a [donation to OWASP](https://owasp.org/donate/) of $1,000 or more and choose to "restrict your gift". Alternatively, when you pay your corporate membership you can choose to [allocate part of your membership fee to the ASVS](https://owasp.org/supporters/benefits#corporate-sponsorship-of-participating-projects-or-chapters) where the allocated amount will govern which level of supporter you become.
+If you would like to directly become a Primary, Secondary or Tertiary supporter, you can make a [donation to OWASP](https://owasp.org/donate/) of $1,000 or more and choose to "restrict your gift". Alternatively, organizations can explore [OWASP corporate supporter options](https://owasp.org/supporters) and contact OWASP to discuss supporting the ASVS project.
 
 ## Maintaining Supporters (through time provision)
 
