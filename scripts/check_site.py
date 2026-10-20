@@ -1,5 +1,6 @@
 """Check Jekyll output for missing pages, local links and assets."""
 
+import argparse
 from html.parser import HTMLParser
 from pathlib import Path
 import sys
@@ -17,7 +18,7 @@ class Links(HTMLParser):
                 self.urls.append(value)
 
 
-def check(root):
+def check(root, expected_baseurl=None):
     required = ["index.html", "404.html", "downloads/index.html",
                 "meetup/index.html", "supporters/index.html", "news/index.html",
                 "acknowledgements/index.html", "get-involved/index.html",
@@ -37,6 +38,8 @@ def check(root):
         errors.append("Just the Docs stylesheet missing")
         return errors
     prefix = styles[0].removesuffix("/assets/css/just-the-docs-default.css")
+    if expected_baseurl is not None and prefix != expected_baseurl.rstrip('/'):
+        errors.append(f"Wrong deployed baseurl: expected {expected_baseurl!r}, found {prefix!r}")
     for page in root.rglob("*.html"):
         parser = Links()
         content = page.read_text()
@@ -61,7 +64,11 @@ def check(root):
 
 
 if __name__ == "__main__":
-    failures = check(Path(sys.argv[1] if len(sys.argv) > 1 else "_site"))
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('directory', nargs='?', default='_site')
+    parser.add_argument('--baseurl', help='Require this URL prefix; use an empty string for a custom domain')
+    args = parser.parse_args()
+    failures = check(Path(args.directory), args.baseurl)
     if failures:
         print("\n".join(failures))
         sys.exit(1)

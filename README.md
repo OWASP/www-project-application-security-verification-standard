@@ -27,7 +27,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Open http://localhost:4000/www-project-application-security-verification-standard/.
+Open http://localhost:4000/.
 
 The project uses Jekyll 4 directly so it can run on Ruby 4.0.7, rather than the older `github-pages` gem bundle. CI builds on Ruby 4.0.7 and checks the Windows launcher.
 
@@ -35,12 +35,14 @@ The project uses Jekyll 4 directly so it can run on Ruby 4.0.7, rather than the 
 
 ```sh
 JEKYLL_ENV=production bundle exec jekyll build
-python3 scripts/check_site.py _site
+python3 scripts/check_site.py _site --baseurl ""
 ```
 
 In repository Settings → Pages, select **GitHub Actions** as the source. The site workflow builds and checks pull requests, and deploys pushes to `master`. This is intended to replace the old OWASP theme build. Repository Pages configuration must be enabled by a maintainer.
 
-The default address is https://owasp.github.io/www-project-application-security-verification-standard/. For a custom domain, set `url` and `baseurl` in `_config.yml`, add the appropriate `CNAME`, and remove the workflow's `--baseurl` override. No custom domain is assumed by this migration.
+The production address is https://asvs.owasp.org/. `_config.yml` sets that origin with an empty `baseurl`, and `CNAME` records the domain. The published build uses this configuration without a repository-path override. The browser review checks this exact deployment directory. A separate build checks that repository-prefixed URLs still work for project-path previews.
+
+The Pages source must be **GitHub Actions**, not **Deploy from a branch**. The built-in branch publisher uses an older Ruby/Jekyll/Sass toolchain that cannot compile this site's Sass modules. After merging configuration changes, the `Build and deploy website` workflow publishes the validated artifact.
 
 ## Migration provenance
 

@@ -2,7 +2,7 @@ name: Build and deploy website
 
 on:
   push:
-    branches: [master, site/just-the-docs-migration]
+    branches: [master, 'site/**']
   pull_request:
   workflow_dispatch:
 
@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Test deployment-path regression checks
+        run: python3 -m unittest discover -s scripts -p test_check_site.py
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '4.0.7'
@@ -26,17 +28,17 @@ jobs:
         env:
           JEKYLL_ENV: production
         run: |
-          bundle exec jekyll build --baseurl "/${{ github.event.repository.name }}" 2>&1 | tee /tmp/asvs-build.log
+          bundle exec jekyll build 2>&1 | tee /tmp/asvs-build.log
           python3 -c "from pathlib import Path; assert 'Deprecation Warning' not in Path('/tmp/asvs-build.log').read_text(), 'Sass deprecations returned'"
       - name: Validate generated website
-        run: python3 scripts/check_site.py _site
-      - name: Build and validate domain-root URLs
+        run: python3 scripts/check_site.py _site --baseurl ""
+      - name: Build and validate project-path compatibility
         env:
           JEKYLL_ENV: production
         run: |
-          bundle exec jekyll build --baseurl "" --destination /tmp/asvs-site-root 2>&1 | tee /tmp/asvs-root-build.log
+          bundle exec jekyll build --baseurl "/${{ github.event.repository.name }}" --destination /tmp/asvs-site-project 2>&1 | tee /tmp/asvs-root-build.log
           python3 -c "from pathlib import Path; assert 'Deprecation Warning' not in Path('/tmp/asvs-root-build.log').read_text(), 'Sass deprecations returned'"
-          python3 scripts/check_site.py /tmp/asvs-site-root
+          python3 scripts/check_site.py /tmp/asvs-site-project --baseurl "/${{ github.event.repository.name }}"
       - name: Install browser test driver
         run: python3 -m pip install playwright
       - name: Review desktop, mobile, and search in Chrome
