@@ -9,7 +9,8 @@ from threading import Thread
 
 from playwright.sync_api import sync_playwright
 
-site = Path('/tmp/asvs-site-root')
+# Review the exact directory uploaded for deployment, not a separate test build.
+site = Path('_site').resolve()
 server = ThreadingHTTPServer(('127.0.0.1', 8765), partial(SimpleHTTPRequestHandler, directory=str(site)))
 Thread(target=server.serve_forever, daemon=True).start()
 captures = Path('/tmp/asvs-review')
