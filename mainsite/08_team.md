@@ -1,0 +1,22 @@
+---
+title: Project Team
+nav_order: 9
+permalink: /team/
+---
+
+### Leaders
+
+* [Daniel Cuthbert](mailto:daniel.cuthbert@owasp.org)
+* [Elar Lang](mailto:elarlang@gmail.com)
+* [Josh Grossman](mailto:josh.grossman@owasp.org)
+
+### Working Group
+
+* [Shanni Prutchi](https://github.com/EnigmaRosa)
+* [Ralph Andalis](https://github.com/csfreak92)
+* [Meghan Jacquot](https://github.com/meghanjacquot)
+* [Iman Sharafaldin](https://github.com/ImanSharaf)
+* [Ryan Armstrong](https://github.com/ryarmst)
+* [Gabriel Corona](https://github.com/randomstuff)
+* [Tobias Ahnoff](https://github.com/TobiasAhnoff)
+* [Eden Yardeni](https://github.com/cronchie)

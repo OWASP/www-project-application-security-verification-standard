@@ -1,3 +1,49 @@
-remote_theme: "owasp/www--site-theme@main"
+title: OWASP Application Security Verification Standard
+description: A framework of security requirements for designing, developing and testing modern web applications and web services.
+url: https://owasp.github.io
+baseurl: /www-project-application-security-verification-standard
+remote_theme: just-the-docs/just-the-docs@2ed4c0af735e95af5c0dcf7a605b07d903005b4e
+permalink: /:title/
+
 plugins:
- - jekyll-include-cache-0.2.0
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+search_enabled: true
+nav_enabled: true
+heading_anchors: true
+logo: /brand/Logo/Color/ASVS_Logo_Color.svg
+aux_links:
+  OWASP:
+    - https://owasp.org
+  ASVS Standard:
+    - https://github.com/OWASP/ASVS
+  Website Source:
+    - https://github.com/OWASP/www-project-application-security-verification-standard
+aux_links_new_tab: false
+
+exclude:
+  - start-site.bat
+  - assets/images/README.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - scripts/
+  - info.md
+  - leaders.md
+  - tab_acknowledgements.md
+  - tab_asvsusers.md
+  - tab_example.md
+  - tab_getinvolved.md
+  - tab_meetup.md
+  - tab_newsevents.md
+  - tab_supporters.md
+  - migrated_content.md
+  - project.owasp.yaml

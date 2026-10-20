@@ -1,18 +1,16 @@
 ---
-
-layout: col-sidebar
-title: OWASP Application Security Verification Standard (ASVS)
-tags: asvs
-level: 4
-type: standards
-pitch: The OWASP Application Security Verification Standard (ASVS) Project is a framework of security requirements that focus on defining the security controls required when designing, developing and testing modern web applications and web services.
-headerimage: ./assets/images/OWASP_ASVS_Linkedin_Banner-01.jpg
+title: Overview
+nav_order: 1
+permalink: /
 ---
+
+{% include asvs/home.html %}
+
 [![Creative Commons License](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
 [![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory)
 ![Github stars ASVS](https://img.shields.io/github/stars/OWASP/asvs?label=Stars%20ASVS&style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_ASVS.svg?style=social&label=Follow)](https://twitter.com/OWASP_ASVS)
-[<img src="./assets/images/LinkedIn_Logo.svg" height=20>](https://www.linkedin.com/company/owasp-asvs/)
+[<img src="{{ '/assets/' | relative_url }}images/LinkedIn_Logo.svg" height=20 style="max-height:20px; width:auto">](https://www.linkedin.com/company/owasp-asvs/)
 
 ## What is the ASVS?
 
@@ -26,7 +24,7 @@ For more details on how to financially support the ASVS, see our [Supporters Pag
 
 Follow us on social media to ensure you don't miss updates about the ASVS:
 * [![Twitter Follow](https://img.shields.io/twitter/follow/OWASP_ASVS.svg?style=social&label=Follow)](https://twitter.com/OWASP_ASVS)
-* [<img src="./assets/images/LinkedIn_Logo.svg" height=20>](https://www.linkedin.com/company/owasp-asvs/)
+* [<img src="{{ '/assets/' | relative_url }}images/LinkedIn_Logo.svg" height=20 style="max-height:20px; width:auto">](https://www.linkedin.com/company/owasp-asvs/)
 
 ## More Details on the ASVS
 
@@ -62,3 +60,7 @@ OWASP Resources:
 * [OWASP Top Ten Proactive Controls (2018)](https://top10proactive.owasp.org/)
 * [OWASP Top Ten Risks (2017)](https://owasp.org/Top10/)
 * [OWASP Cheatsheet Series](https://cheatsheetseries.owasp.org/index.html)
+
+## Project team
+
+See the [project leaders and working group]({{ '/team/' | relative_url }}).

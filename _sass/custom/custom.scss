@@ -1,0 +1,283 @@
+@use "sass:color";
+
+// OWASP brand palette
+$owasp-blue:     #003594;
+$owasp-cyan:     #00A7E1;
+$owasp-dark:     #101820;
+$owasp-yellow:   #ffb81b;
+$owasp-link:     #0056d6;
+$owasp-light-bg: #f1f6fe;
+$owasp-gray:     #757575;
+
+// Fonts are loaded by head_custom.html so they precede stylesheet rules.
+
+// CSS variable overrides (just-the-docs theming tokens)
+:root {
+  --sidebar-color:                    #{$owasp-blue};
+  --sidebar-nav-item-active-color:    #{$owasp-cyan};
+  --link-color:                       #{$owasp-link};
+  --btn-primary-color:                #{$owasp-blue};
+  --body-heading-color:               #{$owasp-dark};
+  --body-text-color:                  #{$owasp-dark};
+  --table-background-color:           #{$owasp-light-bg};
+  --search-background-color:          #fff;
+  --border-color:                     #d7d7d7;
+}
+
+// Typography
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  color: $owasp-dark;
+}
+
+// Sidebar – blue background with white text
+.side-bar {
+  background-color: $owasp-blue;
+  border-right: none;
+
+  .site-title {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+
+  .site-button {
+    color: rgba(255, 255, 255, 0.8);
+
+    &:hover { color: #fff; }
+  }
+}
+
+.nav-list .nav-list-item .nav-list-link {
+  color: rgba(255, 255, 255, 0.85);
+
+  &:hover {
+    background-color: #fff;
+    color: $owasp-blue;
+  }
+
+  &.active {
+    background-color: #fff;
+    color: $owasp-blue;
+    font-weight: 600;
+  }
+}
+
+// Search box inside sidebar
+.search-input {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.3);
+
+  &::placeholder { color: rgba(255, 255, 255, 0.5); }
+  &:focus        { border-color: $owasp-cyan; }
+}
+
+// Top breadcrumb bar
+.main-header {
+  background-color: #fff;
+  border-bottom: 3px solid $owasp-cyan;
+}
+
+// Links
+a {
+  color: $owasp-link;
+  &:hover { color: $owasp-blue; }
+}
+
+// H1 with cyan underline accent
+h1 {
+  border-bottom: 3px solid $owasp-cyan;
+  padding-bottom: 0.4rem;
+}
+
+// Tables – blue header row, striped body
+table th {
+  background-color: $owasp-blue;
+  color: #fff;
+}
+
+table tr:nth-child(even) td {
+  background-color: $owasp-light-bg;
+}
+
+// Code blocks – keep readable but add a left accent
+pre.highlight {
+  border-left: 4px solid $owasp-cyan;
+}
+
+// Labels / badges keep yellow accent
+.label {
+  background-color: $owasp-yellow;
+  color: $owasp-dark;
+}
+
+// Content of the footnote for the navigation menu on the left
+.navigation-footnote {
+  color: white;
+  font-family: Consolas, monospace;
+}
+
+// Search is in the white main header in Just the Docs.
+.search-input {
+  background-color: #fff;
+  color: $owasp-dark;
+  &::placeholder { color: #595959; }
+}
+
+.site-logo { background-color: #fff; border-radius: 4px; }
+.site-footer { color: rgba(255, 255, 255, 0.85); }
+.main-content img { max-width: 100%; }
+
+// Just the Docs uses Sass colors for buttons rather than CSS tokens.
+.btn-primary {
+  background-color: $owasp-blue;
+  background-image: none;
+  &:hover, &:focus { background-color: color.adjust($owasp-blue, $lightness: -8%, $space: hsl); background-image: none; }
+}
+
+// ASVS visual identity: preserve the docs layout and navigation behavior.
+$asvs-purple: #7543aa;
+$asvs-navy: #14284b;
+
+.side-bar {
+  background-color: $asvs-navy;
+  .site-header { border-bottom-color: rgba(255, 255, 255, 0.16); }
+  .site-button { color: #fff; }
+}
+
+.nav-list .nav-list-item .nav-list-link {
+  border-radius: 6px 0 0 6px;
+  &.active {
+    background-color: #f0edfa;
+    color: $asvs-navy;
+    box-shadow: inset 3px 0 $asvs-purple;
+  }
+}
+
+.main-header { border-bottom: 2px solid #e8e4f0; }
+h1 { border-bottom-color: $asvs-purple; }
+
+.main-content h2 { margin-top: 2rem; }
+.main-content h2 + p { margin-top: 0.75rem; }
+
+
+
+// ASVS project homepage. Links and content work without JavaScript.
+.asvs-home {
+  --asvs-muted: #535e73;
+  --asvs-line: #e3e7ef;
+  h2, h3 { margin: 0; border: 0; }
+  a { text-decoration: none; background-image: none; }
+  a:focus-visible { outline: 3px solid #7543aa; outline-offset: 4px; }
+  .asvs-kicker { margin: 0 0 0.65rem; color: #673295; font-size: 0.69rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+}
+
+.asvs-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 120px;
+  align-items: center;
+  gap: 1.75rem;
+  padding: 2rem 0 2.25rem;
+  h1 { margin: 0; border: 0; padding: 0; font-size: clamp(1.8rem, 3.2vw, 2.65rem); font-weight: 600; line-height: 1.18; letter-spacing: -0.035em; }
+  .asvs-lead { margin: 1.25rem 0; color: var(--asvs-muted); font-size: 1.06rem; line-height: 1.65; }
+}
+
+.asvs-brand-mark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
+  padding: 1.5rem 0.6rem;
+  border-radius: 72px 72px 12px 12px;
+  background: linear-gradient(150deg, #f2edfa, #f0f6fd);
+  img { display: block; width: 96px; height: 96px; object-fit: contain; }
+  span { color: #55506d; font-size: 0.72rem; text-align: center; line-height: 1.5; }
+}
+
+.asvs-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; }
+.asvs-actions .btn-primary { margin: 0; padding: 0.65rem 1rem; border-radius: 6px; box-shadow: none; }
+.asvs-text-link { font-weight: 600; color: #673295; }
+.asvs-page-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--asvs-line);
+  border-bottom: 1px solid var(--asvs-line);
+  a { color: var(--asvs-muted); font-size: 0.82rem; font-weight: 600; }
+  a:hover { color: #673295; text-decoration: underline; }
+}
+.asvs-section { margin: 2.5rem 0; }
+.asvs-section-heading { margin-bottom: 1.25rem; }
+.asvs-home h2 { font-size: 1.45rem; font-weight: 600; letter-spacing: -0.025em; line-height: 1.3; }
+.asvs-pathways { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.8rem; }
+.asvs-pathway {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 1rem;
+  border: 1px solid var(--asvs-line);
+  border-radius: 8px;
+  color: #14284b;
+  background: #fff;
+  transition: border-color 150ms, box-shadow 150ms;
+  &:hover { color: #14284b; border-color: #9f81bf; box-shadow: 0 3px 10px #14284b0c; }
+  .asvs-card-number { margin-bottom: 1.15rem; color: #765394; font-size: 0.69rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase; }
+  h3 { font-size: 1.02rem; font-weight: 600; letter-spacing: -0.025em; line-height: 1.4; }
+  p { margin: 0.65rem 0 1.2rem; color: var(--asvs-muted); font-size: 0.87rem; line-height: 1.6; }
+  .asvs-card-link { margin-top: auto; color: #673295; font-size: 0.78rem; font-weight: 600; }
+}
+.asvs-release {
+  padding: 1.5rem;
+  border: 1px solid #dce3ef;
+  border-top: 3px solid #003594;
+  border-radius: 8px;
+  background: #f7f9fd;
+}
+.asvs-release-heading { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 1rem; margin-bottom: 1.25rem; }
+.asvs-release-heading p:last-child { margin: 0.5rem 0 0; font-size: 0.78rem; color: var(--asvs-muted); }
+.asvs-status { padding: 0.25rem 0.6rem; border: 1px solid #b7d6c7; border-radius: 20px; color: #245c44; background: #edf7f1; font-size: 0.69rem; font-weight: 600; }
+.asvs-downloads { border: 1px solid var(--asvs-line); border-radius: 6px; background: #fff; }
+.asvs-downloads a {
+  display: grid; grid-template-columns: 44px minmax(0, 1fr) 16px; gap: 0.9rem; align-items: center; padding: 0.85rem 1rem; color: #14284b;
+  + a { border-top: 1px solid var(--asvs-line); }
+  &:hover { background: #f2eff9; }
+  strong { display: block; font-size: 0.91rem; font-weight: 600; }
+  small { display: block; margin-top: 0.15rem; color: var(--asvs-muted); font-size: 0.75rem; }
+}
+.asvs-filetype { padding: 0.4rem 0; text-align: center; border: 1px solid #ded5ec; border-radius: 4px; color: #673295; font-size: 0.65rem; font-weight: 700; }
+.asvs-release-footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.8rem; margin-top: 1rem; a { color: #003594; font-size: 0.8rem; font-weight: 600; } }
+.asvs-community > p { margin: 0 0 1.2rem; color: var(--asvs-muted); font-size: 0.95rem; }
+.asvs-community-links {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem;
+  a { position: relative; display: flex; flex-direction: column; padding: 1rem 1.1rem 1rem 0; border-top: 2px solid #d9cce9; color: #14284b; }
+  a:hover { border-color: #7543aa; }
+  .asvs-community-label { color: #765394; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+  strong { margin: 0.6rem 0 0.3rem; font-size: 0.96rem; font-weight: 600; }
+  span:not([class]) { color: var(--asvs-muted); font-size: 0.79rem; }
+  .asvs-community-arrow { position: absolute; top: 1rem; right: 0; color: #673295; }
+}
+.asvs-about-heading { padding: 1.5rem 0 0.5rem; border-top: 1px solid var(--asvs-line); span { font-size: 0.88rem; color: var(--asvs-muted); } }
+
+@media (max-width: 40rem) {
+  .asvs-hero { grid-template-columns: minmax(0, 1fr); gap: 1rem; padding-top: 1rem; }
+  .asvs-brand-mark { display: none; }
+  .asvs-pathways, .asvs-community-links { grid-template-columns: minmax(0, 1fr); }
+  .asvs-pathway { padding: 1.2rem; }
+  .asvs-pathway .asvs-card-number { margin-bottom: 0.6rem; }
+  .asvs-release { padding: 1.1rem; }
+  .asvs-section { margin: 2rem 0; }
+}
+@media (prefers-reduced-motion: reduce) { .asvs-pathway { transition: none; } }
+
+.asvs-pathway {
+  position: relative;
+  h3 a { color: inherit; }
+  h3 a::after { position: absolute; inset: 0; border-radius: 8px; content: ""; }
+  &:focus-within { outline: 3px solid #7543aa; outline-offset: 3px; }
+  h3 a:focus-visible { outline: none; }
+}

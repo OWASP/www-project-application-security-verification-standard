@@ -1,0 +1,7 @@
+{%- comment -%}
+Use migrated local Sass while retaining the pinned theme's templates and assets.
+The callout include consumes the theme module's exported variables.
+{%- endcomment -%}
+@use "asvs/{{ include.color_scheme }}" as *{% if site.logo %} with ($logo: "{{ site.logo | relative_url }}"){% endif %};
+@use "custom/custom";
+{% include css/callouts.scss.liquid color_scheme=include.color_scheme %}
