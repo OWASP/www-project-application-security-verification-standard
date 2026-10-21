@@ -281,3 +281,10 @@ h1 { border-bottom-color: $asvs-purple; }
   &:focus-within { outline: 3px solid #7543aa; outline-offset: 3px; }
   h3 a:focus-visible { outline: none; }
 }
+
+// The theme puts the edit link in the dark sidebar on desktop.
+.side-bar #edit-this-page {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}

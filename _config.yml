@@ -28,6 +28,13 @@ aux_links:
     - https://github.com/OWASP/www-project-application-security-verification-standard
 aux_links_new_tab: false
 
+# Link each rendered page to its Markdown source in the website repository.
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: https://github.com/OWASP/www-project-application-security-verification-standard
+gh_edit_branch: master
+gh_edit_view_mode: edit
+
 exclude:
   - start-site.bat
   - assets/images/README.md
