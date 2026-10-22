@@ -18,6 +18,8 @@ Install [Ruby 4.0.7 with Devkit](https://rubyinstaller.org/downloads/) and compl
 
 Double-click `start-site.bat`, or run it from Command Prompt. It installs Bundler if needed, installs missing gems into `vendor/bundle`, and starts the site at **http://127.0.0.1:4000/**. The first run needs internet access; Jekyll also downloads the remote theme when it starts. Wait for the server to start before opening the URL. Keep the window open while testing and press **Ctrl+C** to stop. Changes to `_config.yml` require restarting the script.
 
+The Windows launcher exports Windows' trusted root certificates to a temporary CA bundle for Ruby HTTPS downloads, with certificate verification enabled. An existing `SSL_CERT_FILE` takes precedence. The bundle is removed when the launcher exits normally; no system certificate settings are changed.
+
 ### Other platforms
 
 Install Ruby 4.0.7 and Bundler, then run:

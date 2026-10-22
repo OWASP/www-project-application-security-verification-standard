@@ -129,7 +129,22 @@ pre.highlight {
   &::placeholder { color: #595959; }
 }
 
-.site-logo { background-color: #fff; border-radius: 4px; }
+.side-bar .site-header {
+  height: 128px;
+  min-height: 128px;
+  max-height: none;
+}
+.side-bar .site-title { flex-grow: 1; }
+.site-logo {
+  width: 144px;
+  height: 104px;
+  background-color: transparent;
+  background-position: left center;
+}
+@media (max-width: 49.99rem) {
+  .side-bar .site-header { height: 88px; min-height: 88px; }
+  .site-logo { width: 96px; height: 72px; }
+}
 .site-footer { color: rgba(255, 255, 255, 0.85); }
 .main-content img { max-width: 100%; }
 
@@ -187,6 +202,14 @@ h1 { border-bottom-color: $asvs-purple; }
   .asvs-lead { margin: 1.25rem 0; color: var(--asvs-muted); font-size: 1.06rem; line-height: 1.65; }
 }
 
+.asvs-hero-banner {
+  grid-column: 1 / -1;
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 .asvs-brand-mark {
   display: flex;
   flex-direction: column;
@@ -202,6 +225,15 @@ h1 { border-bottom-color: $asvs-purple; }
 .asvs-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; }
 .asvs-actions .btn-primary { margin: 0; padding: 0.65rem 1rem; border-radius: 6px; box-shadow: none; }
 .asvs-text-link { font-weight: 600; color: #673295; }
+.asvs-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 1rem;
+  a, img { display: block; }
+  img { width: auto; max-height: 31px; }
+}
 .asvs-page-nav {
   display: flex;
   flex-wrap: wrap;

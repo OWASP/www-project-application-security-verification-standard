@@ -10,6 +10,15 @@ if errorlevel 1 (
     goto :failed
 )
 
+rem Use Windows trust for Ruby HTTPS unless a CA file is already configured.
+if defined SSL_CERT_FILE goto :certificates_ready
+set "ASVS_CA_FILE=%TEMP%\asvs-ca-%RANDOM%-%RANDOM%.pem"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0scripts\export-windows-ca.ps1" -Destination "%ASVS_CA_FILE%"
+if errorlevel 1 goto :failed
+set "SSL_CERT_FILE=%ASVS_CA_FILE%"
+if not defined BUNDLE_SSL_CA_CERT set "BUNDLE_SSL_CA_CERT=%ASVS_CA_FILE%"
+:certificates_ready
+
 where bundle >nul 2>&1
 if errorlevel 1 (
     echo Installing Bundler...
@@ -49,11 +58,13 @@ echo Keep this window open. Press Ctrl+C to stop the server.
 echo.
 call bundle exec jekyll serve --host 127.0.0.1 --port 4000 --baseurl ""
 if errorlevel 1 goto :failed
+if defined ASVS_CA_FILE del /q "%ASVS_CA_FILE%" >nul 2>&1
 popd
 endlocal
 exit /b 0
 
 :failed
+if defined ASVS_CA_FILE del /q "%ASVS_CA_FILE%" >nul 2>&1
 echo.
 echo Could not start the website. See the error above.
 echo If native gem compilation failed, run ridk install to install the Ruby Devkit toolchain.

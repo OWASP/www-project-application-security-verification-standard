@@ -18,7 +18,7 @@ defaults:
 search_enabled: true
 nav_enabled: true
 heading_anchors: true
-logo: /brand/Logo/Color/ASVS_Logo_Color.svg
+logo: /brand/Logo/White/ASVS_Logo_White.svg
 aux_links:
   OWASP:
     - https://owasp.org

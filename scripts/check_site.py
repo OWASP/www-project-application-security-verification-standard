@@ -29,7 +29,7 @@ def check(root, expected_baseurl=None):
     if not home.exists():
         return errors
     parser = Links()
-    parser.feed(home.read_text())
+    parser.feed(home.read_text(encoding="utf-8"))
     # The theme emits the stylesheet through relative_url. Infer the deployed
     # project prefix so this check also supports custom domains and local builds.
     styles = [urlsplit(u).path for u in parser.urls
@@ -42,7 +42,7 @@ def check(root, expected_baseurl=None):
         errors.append(f"Wrong deployed baseurl: expected {expected_baseurl!r}, found {prefix!r}")
     for page in root.rglob("*.html"):
         parser = Links()
-        content = page.read_text()
+        content = page.read_text(encoding="utf-8")
         if "{{" in content or "{%" in content:
             errors.append(f"Unrendered Liquid in {page.relative_to(root)}")
         parser.feed(content)
