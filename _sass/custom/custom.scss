@@ -233,6 +233,7 @@ h1 { border-bottom-color: $asvs-purple; }
   margin-bottom: 1rem;
   a, img { display: block; }
   img { width: auto; max-height: 31px; }
+  img[src$="LinkedIn_Logo.svg"] { height: 20px; max-height: 20px; }
 }
 .asvs-page-nav {
   display: flex;
