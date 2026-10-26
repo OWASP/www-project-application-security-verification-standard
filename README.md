@@ -64,6 +64,8 @@ If the encoding check passes but RubyGems crashes verifying a downloaded gem, up
 
 ## Theme stylesheet maintenance
 
+The local `_includes/head.html` follows the pinned theme's header template and adds a build timestamp to both stylesheet URLs. Each deployment gets fresh CSS URLs, avoiding stale styles behind the hosting cache. Keep this template in sync when updating the theme.
+
 The theme templates remain pinned to the Secure Headers theme revision. The styles in `_sass/asvs/` are local MIT-licensed derivatives of that revision, migrated from Sass imports and deprecated global functions to modules. This removes the deprecations without changing the palette or suppressing compiler warnings.
 
 To regenerate after reviewing a theme update, check out the revision recorded in `scripts/migrate_theme_styles.py`, then run `python scripts/migrate_theme_styles.py /path/to/just-the-docs`. Commit the generated light and dark styles and license. The shared Liquid stylesheet include loads these modules for the default, light and dark stylesheets. No extra tooling is needed for a normal Jekyll build.
