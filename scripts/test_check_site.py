@@ -30,6 +30,14 @@ class DeploymentPaths(unittest.TestCase):
         self.homepage('')
         self.assertEqual(check(self.root, ''), [])
 
+    def test_versioned_stylesheet_urls_are_supported(self):
+        for prefix in ('', '/project'):
+            with self.subTest(prefix=prefix):
+                self.homepage(prefix)
+                home = self.root / 'index.html'
+                home.write_text(home.read_text().replace('.css"', '.css?v=1234567890"'))
+                self.assertEqual(check(self.root, prefix), [])
+
     def test_project_prefix_is_not_valid_for_custom_domain(self):
         # All files exist: inferring the prefix alone used to pass this build,
         # even though the stylesheet URL would return 404 on the custom domain.
