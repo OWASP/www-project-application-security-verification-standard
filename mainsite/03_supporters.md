@@ -59,7 +59,5 @@ Organizations who have donated $500 or more to the project via OWASP. Supporter 
 
 Organizations who have donated another amount to the project via OWASP. Supporter will be listed in this section for 1 year from the date of the donation.
 
-<!--[<img src="{{ '/assets/' | relative_url }}images/apiiro.svg" height=50 style="max-height:50px; width:auto"](https://apiiro.com/)-->
-
 <!--Don't forget to update https://github.com/OWASP/ASVS/issues/1888 -->
 <!--Don't forget to update https://docs.google.com/spreadsheets/d/1OrbrYy6R4ux_BuE2rJ17jQurBYbGz4bwAPJWFK4opew/edit#gid=0-->
