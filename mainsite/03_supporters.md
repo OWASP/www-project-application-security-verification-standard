@@ -24,7 +24,9 @@ We recognise various tiers of support and the amount of time the supporter is re
 
 On this page and the project web page, we will display the supporter's logo and link to their website and we will publicise via Social Media as well.
 
-If you would like to directly become a Primary, Secondary or Tertiary supporter, you can make a [donation to OWASP](https://owasp.org/donate/) of $1,000 or more and choose to "restrict your gift". Alternatively, organizations can explore [OWASP corporate supporter options](https://owasp.org/supporters) and contact OWASP to discuss supporting the ASVS project.
+If you would like to directly become a Primary, Secondary or Tertiary supporter, you can be in contact with the [project leaders](/team/#leaders) who can progress the process. 
+
+Alternatively, organizations can explore [OWASP corporate supporter options](https://owasp.org/supporters) and contact OWASP to discuss supporting the ASVS project.
 
 ## Maintaining Supporters (through time provision)
 
