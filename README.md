@@ -6,7 +6,7 @@ The website uses the same Jekyll / Just the Docs mechanism and pinned theme revi
 
 ## Content
 
-Edit `index.md` for the overview and `mainsite/*.md` for the other pages. Existing tab, sidebar and migration files are retained as migration references and excluded from publication. Images, branding and the release ZIP remain at their original paths. The new pages preserve the existing editorial content; dated events and links have not been refreshed.
+Edit `index.md` for the overview and `mainsite/*.md` for the other pages. Retired tab, sidebar and migration files, along with unused images, are archived under `old/` and excluded from publication. Active images, branding and the release ZIP remain at their original paths. The new pages preserve the existing editorial content; dated events and links have not been refreshed.
 
 Use Liquid's `relative_url` filter for local links so both GitHub project paths and custom domains work. For example: `{{ '/downloads/' | relative_url }}`.
 

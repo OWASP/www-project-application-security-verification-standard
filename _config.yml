@@ -37,20 +37,10 @@ gh_edit_view_mode: edit
 
 exclude:
   - start-site.bat
-  - assets/images/README.md
   - README.md
   - Gemfile
   - Gemfile.lock
   - vendor/
   - scripts/
-  - info.md
-  - leaders.md
-  - tab_acknowledgements.md
-  - tab_asvsusers.md
-  - tab_example.md
-  - tab_getinvolved.md
-  - tab_meetup.md
-  - tab_newsevents.md
-  - tab_supporters.md
-  - migrated_content.md
+  - old/
   - project.owasp.yaml
